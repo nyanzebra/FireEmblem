@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A26F1135-9CAC-9BF7-B866-E72AA2F73AED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Cha_Data\Script\ScreenShot.cs" />
+    <Compile Include="Assets\ProCore\Prototype\Scripts\RebuildMeshOnWake.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Character\Character.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Inventory\Equipment.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Upgrades\Seal.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Upgrades\Seals\MasterSeal.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Close\Axe.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Close\Sword.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Staff.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Range\Bow.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Special\Stone.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\WeaponType.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Mechanics\Difficulty.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Mechanics\Mechanics.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Mechanics\WeaponTriangle.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Archer.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Barbarian.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Cavalier.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\DarkMage.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Fighter.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Knight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Lord.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Mage.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Mercenary.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Myrmidon.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\PegasusKnight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Priest.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Tactician.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Thief.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\Troubadour.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Apprentice\WyvernRider.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\BeastType.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Assassin.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Berserker.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\BowKnight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\DarkFlier.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\DarkKnight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\FalconKnight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\General.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Grandmaster.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\GreatKnight.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\GreatLord.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\GriffonRider.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Hero.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Paladin.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Sage.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Sniper.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Sorcerer.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Swordmaster.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Trickster.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Valkyrie.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\WarMonk.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\Warrior.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Master\WyvernLord.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\MovementType.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Profession.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Promotion.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\SkillLevel.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Unique\Dancer.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Unique\Manakete.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Unique\Taguel.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Profession\Unique\Villager.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Skills\Skill.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrain.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Bridge.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Cliff.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Desert.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Forest.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Fort.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Gate_or_Throne.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\HighGround.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Ire.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Lava.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Mountain.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Peak.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Pillar.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Ruins.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Sigil.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Stairway.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Terrain\Terrains\Water.cs" />
+    <Compile Include="Assets\ShowSkin.cs" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Sprites\MapSprites\Emmeryn\3DS - Fire Emblem Awakening - Emmeryn.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Sprites\MapSprites\Lissa\3DS - Fire Emblem Awakening - Lissa.png.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Sprites\MapSprites\Sayri\3DS - Fire Emblem Awakening - Sayri.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Fredrick\3DS - Fire Emblem Awakening - Fredrick.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cynthia\3DS - Fire Emblem Awakening - Cynthia.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Tiki\3DS - Fire Emblem Awakening - Tiki.png.txt" />
+    <None Include="Assets\ProCore\Prototype\About\changelog.txt" />
+    <None Include="Assets\ProCore\Prototype\Shader\VertexBillboard.shader" />
+    <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColor.shader" />
+    <None Include="Assets\Sprites\MapSprites\Nowi\3DS - Fire Emblem Awakening - Nowi.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Miriel\3DS - Fire Emblem Awakening - Miriel.png.txt" />
+    <None Include="Assets\ProCore\Shared\About\README.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gaius\3DS - Fire Emblem Awakening - Gaius.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Panne\3DS - Fire Emblem Awakening - Panne.png.txt" />
+    <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColorTransparency.shader" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\ProCore\Prototype\Shader\EdgeHighlight.shader" />
+    <None Include="Assets\Sprites\MapSprites\Priam\3DS - Fire Emblem Awakening - Priam.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Basilio\3DS - Fire Emblem Awakening - Basilio.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Kellam\3DS - Fire Emblem Awakening - Kellam.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Aversa\3DS - Fire Emblem Awakening - Aversa.png.txt" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gregor\3DS - Fire Emblem Awakening - Gregor.png.txt" />
+    <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
+    <None Include="Assets\Sprites\MapSprites\Gerome\3DS - Fire Emblem Awakening - Gerome.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Lucina\3DS - Fire Emblem Awakening - Lucina.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Maribelle\3DS - Fire Emblem Awakening - Maribelle.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Olivia\3DS - Fire Emblem Awakening - Olivia.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Sprites\MapSprites\Transformations\3DS - Fire Emblem Awakening - Transformations.png.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\ProCore\Prototype\Shader\UnlitColor.shader" />
+    <None Include="Assets\Sprites\MapSprites\Stahl\3DS - Fire Emblem Awakening - Stahl.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Vaike\3DS - Fire Emblem Awakening - Vaike.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Henry\3DS - Fire Emblem Awakening - Henry.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gangrel\3DS - Fire Emblem Awakening - Gangrel.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Sully\3DS - Fire Emblem Awakening - Sully.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Sprites\MapSprites\Chrom\3DS - Fire Emblem Awakening - Chrom.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\NPCS\3DS - Fire Emblem Awakening - NPCS.png.txt" />
+    <None Include="Assets\ProCore\Prototype\About\pc_AboutEntry_ProBuilder.txt" />
+    <None Include="Assets\Sprites\MapSprites\Kjelle\3DS - Fire Emblem Awakening - Kjelle.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Brady\3DS - Fire Emblem Awakening - Brady.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Morgan\F\3DS - Fire Emblem Awakening - Morgan Female.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cherche\3DS - Fire Emblem Awakening - Cherche.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Ricken\3DS - Fire Emblem Awakening - Ricken.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Lonqu\3DS - Fire Emblem Awakening - Lonqu.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Nah\3DS - Fire Emblem Awakening - Nah.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Inigo\3DS - Fire Emblem Awakening - Inigo.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Walhart\3DS - Fire Emblem Awakening - Walhart.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Flavia\3DS - Fire Emblem Awakening - Flavia.png.txt" />
+    <None Include="Assets\ProCore\Prototype\Shader\UnlitColor-Overlay.shader" />
+    <None Include="Assets\Sprites\MapSprites\Validar\3DS - Fire Emblem Awakening - Validar.png.txt" />
+    <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColorEmission.shader" />
+    <None Include="Assets\Sprites\MapSprites\GenericEnemies\3DS - Fire Emblem Awakening - GenericEnemies.png.txt" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Sprites\MapSprites\Tharja\3DS - Fire Emblem Awakening - Tharja.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Excellus\3DS - Fire Emblem Awakening - Excellus.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Donnel\3DS - Fire Emblem Awakening - Donnel.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Sumia\3DS - Fire Emblem Awakening - Sumia.png.txt" />
+    <None Include="Assets\codeandweb.com\Readme.txt" />
+    <None Include="Assets\Sprites\MapSprites\Virion\3DS - Fire Emblem Awakening - Virion.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Libra\3DS - Fire Emblem Awakening - Libra.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cordelia\3DS - Fire Emblem Awakening - Cordelia.png.txt" />
+    <None Include="Assets\ProCore\Prototype\About\Credits.txt" />
+    <None Include="Assets\Sprites\MapSprites\Anna\3DS - Fire Emblem Awakening - Anna.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Laurent\3DS - Fire Emblem Awakening - Laurent.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Morgan\M\3DS - Fire Emblem Awakening - Morgan Male.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Yenfay\3DS - Fire Emblem Awakening - Yenfay.png.txt" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.2\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore">
+      <HintPath>C:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\ProCore\Prototype\Classes\ProBuilderCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps">
+      <HintPath>C:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\ProCore\Prototype\Classes\ProBuilderMeshOps.dll</HintPath>
+    </Reference>
+    <Reference Include="ProCore">
+      <HintPath>C:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\ProCore\Shared\Code\ProCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SixBySeven">
+      <HintPath>C:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\ProCore\Shared\Code\SixBySeven.dll</HintPath>
+    </Reference>
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Close\Lance.cs" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend %28Queue +100%29.shader" />
+    <None Include="Assets\Standard Assets\Water %28Basic%29\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap Reflective.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap Only.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap AlphaTest.shader" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\DarkTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\LightTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\FireTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\ThunderTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\WindTome.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Mechanics\BattleMechanics\BattleMechanics.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Mechanics\LoadSaveMechanics\LoadSaveMechanics.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\Healing\Vulnerary.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Map\Map.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Troops\Troops.cs" />
+    <Compile Include="Assets\Scripts\FireEmblem\Items\ItemType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{36F95EFF-490F-757E-B5C0-2AE491C306C9}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{D163FA80-99F1-D045-4D4E-A81C4C4532F3}</Project>
+      <Name>Assembly-UnityScript-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Mechanics\BattleMechanics\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Mechanics\LoadSaveMechanics\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Mechanics\InventoryMechanics\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Mechanics\MapMechanics\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Unique\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Stats\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Keys\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Tonics\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Gold\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Items\Healing\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Map\" />
+    <Folder Include="Assets\Scripts\FireEmblem\Troops\" />
+  </ItemGroup>
+</Project>
