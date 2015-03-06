@@ -27,7 +27,7 @@ namespace FireEmblem
 				GameSave data = (GameSave) bf.Deserialize(fs);
 				Inventory.Instance().update(data.inventory.CurrentInventory);
 				Troops.Instance().update(data.troops.CurrentTroops);
-				Map.Instance() = data.map;
+				//Map.Instance() = data.map;
 			}
 		}
 	}

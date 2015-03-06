@@ -224,6 +224,9 @@ namespace FireEmblem
 		protected int m_Magic_Temp = 0;
 		protected int m_Resistance_Temp = 0;
 		protected int m_Movement_Temp = 0;
+		//enemy flags
+		protected bool m_isEnemy;
+		protected bool canLevel;
 	}
 }
 
