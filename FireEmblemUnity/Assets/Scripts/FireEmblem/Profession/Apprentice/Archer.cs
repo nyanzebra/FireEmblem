@@ -1,25 +1,22 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Archer : Profession
-	{
-		public Archer ()
-		{
-			m_Max_Health = 60;
-			m_Max_Strength = 26;
-			m_Max_Magic = 20;
-			m_Max_Skill = 29;
-			m_Max_Speed = 25;
-			m_Max_Luck = 30;
-			m_Max_Defense = 25;
-			m_Max_Resistance = 21;
-			m_UsableWeapons.Add (WeaponType.Bow, SkillLevel.B);
-			m_Movement = 5;
-			m_Promotions.Add (new Sniper ());
-			m_Promotions.Add (new BowKnight ());
-			m_Move_Type = MovementType.Land;
-			m_Beast_Type = BeastType.None;
+namespace FireEmblem {
+	public class Archer : Profession {
+		public Archer() {
+			Max_Health = 60;
+			Max_Strength = 26;
+			Max_Magic = 20;
+			Max_Skill = 29;
+			Max_Speed = 25;
+			Max_Luck = 30;
+			Max_Defense = 25;
+			Max_Resistance = 21;
+			UsableWeapons.Add (WeaponType.Bow, SkillLevel.B);
+			Movement = 5;
+			Promotions.Add (new Sniper ());
+			Promotions.Add (new BowKnight ());
+			Move_Type = MovementType.Land;
+			Beast_Type = BeastType.None;
 		}
 	}
 }

@@ -1,11 +1,8 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Sigil
-	{
-		public Sigil ()
-		{
+namespace FireEmblem {
+	public class Sigil {
+		public Sigil() {
 		}
 	}
 }

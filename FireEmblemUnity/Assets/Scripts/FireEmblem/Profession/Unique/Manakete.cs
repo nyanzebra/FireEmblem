@@ -1,21 +1,18 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Manakete : Profession
-	{
-		public Manakete ()
-		{
-			m_Max_Health = 80;
-			m_Max_Strength = 40;
-			m_Max_Magic = 35;
-			m_Max_Skill = 35;
-			m_Max_Speed = 35;
-			m_Max_Luck = 45;
-			m_Max_Defense = 40;
-			m_Max_Resistance = 40;
-			m_Movement = 6;
-			m_UsableWeapons.Add (WeaponType.Stone, SkillLevel.A);
+namespace FireEmblem {
+	public class Manakete : Profession {
+		public Manakete() {
+			Max_Health = 80;
+			Max_Strength = 40;
+			Max_Magic = 35;
+			Max_Skill = 35;
+			Max_Speed = 35;
+			Max_Luck = 45;
+			Max_Defense = 40;
+			Max_Resistance = 40;
+			Movement = 6;
+			UsableWeapons.Add (WeaponType.Stone, SkillLevel.A);
 			//no promotions
 		}
 	}

@@ -1,25 +1,22 @@
 using System;
 
-namespace FireEmblem
-{
-	public class PegasusKnight : Profession
-	{
-		public PegasusKnight ()
-		{
-			m_Max_Health = 60;
-			m_Max_Strength = 24;
-			m_Max_Magic = 23;
-			m_Max_Skill = 28;
-			m_Max_Speed = 27;
-			m_Max_Luck = 30;
-			m_Max_Defense = 22;
-			m_Max_Resistance = 25;
-			m_Movement = 7;
-			m_UsableWeapons.Add (WeaponType.Lance, SkillLevel.A);
-			m_Promotions.Add (new FalconKnight ());
-			m_Promotions.Add (new DarkFlier ());
-			m_Move_Type = MovementType.Air;
-			m_Beast_Type = BeastType.Pegasus;
+namespace FireEmblem {
+	public class PegasusKnight : Profession {
+		public PegasusKnight() {
+			Max_Health = 60;
+			Max_Strength = 24;
+			Max_Magic = 23;
+			Max_Skill = 28;
+			Max_Speed = 27;
+			Max_Luck = 30;
+			Max_Defense = 22;
+			Max_Resistance = 25;
+			Movement = 7;
+			UsableWeapons.Add(WeaponType.Lance, SkillLevel.A);
+			Promotions.Add(new FalconKnight());
+			Promotions.Add(new DarkFlier());
+			Move_Type = MovementType.Air;
+			Beast_Type = BeastType.Pegasus;
 		}
 	}
 }

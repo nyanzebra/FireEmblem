@@ -1,46 +1,46 @@
 using System;
 
-namespace FireEmblem
-{
-	public abstract class Terrain
-	{
-		public Terrain ()
-		{
+namespace FireEmblem {
+	public abstract class Terrain {
+		public Terrain() {
 		}
 
 		public void setAsEnemySpawn() {
-			m_Enemy_Spawn_Position = true;
+			Enemy_Spawn_Position = true;
 		}
 
-		public bool canMoveOverTile {
-			get { return m_Can_Move_Over_Tile; }
-			set { m_Can_Move_Over_Tile = value; }
+		public bool canMoveOverTile() {
+			return Can_Move_Over_Tile;
 		}
 
-		public uint DefenseBonus {
-			get { return m_Defense_Bonus; }
+		public int getDefenseBonus() {
+			return Defense_Bonus;
 		}
 
-		public uint AvoidBonus {
-			get { return m_Avoid_Bonus; }
+		public int getAvoidBonus() {
+			return Avoid_Bonus;
 		}
 
-		public uint HealPercentage {
-			get { return m_Heal_Percentage; }
+		public int getHealPercentage() {
+			return Heal_Percentage;
 		}
 
-		public uint MoveCost {
-			get { return m_Move_Cost; }
+		public int getMoveCost() {
+			return Move_Cost;
 		}
 
-		protected uint m_Defense_Bonus = 0;
-		protected uint m_Avoid_Bonus = 0;
-		protected uint m_Heal_Percentage = 0;
-		protected uint m_Move_Cost = 0;
-		protected bool m_Can_Move_Over_Tile = true;
-		protected bool m_Enemy_Spawn_Position = false;
-		protected MovementType m_Highest_Movement_Requirement = MovementType.Land;
-		protected bool m_Can_Stop_On_Tile = true;
+		public MovementType getHighestMovementRequirement() {
+			return Highest_Movement_Requirement;
+		}
+
+		protected int Defense_Bonus = 0;
+		protected int Avoid_Bonus = 0;
+		protected int Heal_Percentage = 0;
+		protected int Move_Cost = 0;
+		protected bool Can_Move_Over_Tile = true;
+		protected bool Enemy_Spawn_Position = false;
+		protected MovementType Highest_Movement_Requirement = MovementType.Land;
+		protected bool Can_Stop_On_Tile = true;
 	}
 }
 

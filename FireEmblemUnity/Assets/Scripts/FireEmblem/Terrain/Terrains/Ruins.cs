@@ -1,11 +1,8 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Ruins
-	{
-		public Ruins ()
-		{
+namespace FireEmblem {
+	public class Ruins {
+		public Ruins() {
 		}
 	}
 }

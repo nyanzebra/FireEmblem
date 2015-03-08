@@ -1,67 +1,61 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FireEmblem\Profession\Promotion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FireEmblem\Map\Map.cs">
     <Files>
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Promotion.cs" Line="11" Column="4" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Tactician.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Thief.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\WyvernRider.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Unique\Dancer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Unique\Manakete.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Unique\Taguel.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Unique\Villager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Bridge.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Item.cs" Line="30" Column="40" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Weapon.cs" Line="25" Column="4" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrain.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Barbarian.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Cavalier.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\DarkMage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Fighter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Knight.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Lord.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Mage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Mercenary.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Myrmidon.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\PegasusKnight.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\Apprentice\Priest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Cliff.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Desert.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Forest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Fort.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Gate_or_Throne.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\HighGround.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Lava.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Mountain.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Peak.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Pillar.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Water.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Ruins.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrains\Stairway.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Mechanics\Mechanics.cs" Line="17" Column="3" />
-      <File FileName="Assets\Scripts\FireEmblem\Character\Character.cs" Line="182" Column="26" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Range\Bow.cs" Line="11" Column="18" />
-      <File FileName="Assets\Scripts\FireEmblem\Profession\BeastType.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Special\Stone.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\DarkTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\LightTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\FireTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\ThunderTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Tomes\AnimaTomes\WindTome.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\WeaponType.cs" Line="27" Column="8" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Magic\Staff.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Close\Sword.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Close\Lance.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Close\Axe.cs" Line="14" Column="39" />
-      <File FileName="Assets\Scripts\FireEmblem\Mechanics\BattleMechanics\BattleMechanics.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Mechanics\LoadSaveMechanics\LoadSaveMechanics.cs" Line="30" Column="19" />
-      <File FileName="Assets\Scripts\FireEmblem\Items\Healing\Vulnerary.cs" Line="15" Column="3" />
-      <File FileName="Assets\Scripts\FireEmblem\Inventory\Inventory.cs" Line="49" Column="1" />
-      <File FileName="Assets\Scripts\FireEmblem\Map\Map.cs" Line="20" Column="15" />
-      <File FileName="Assets\Scripts\FireEmblem\Troops\Troops.cs" Line="37" Column="59" />
+      <File FileName="Assets\Scripts\FireEmblem\Character\Parents\Chrom.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Character\Character.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Managers\BattleManager\BattleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Attributes\Attributes.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Inventory\Equipment.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Items\Weapons\Close\Swords\Bronze Sword.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\LevelSystem\LevelSystem.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Skill\Skills\Aether.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Character\Enemies\EnemyBuilder.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Skill\Skills\Charm.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Robert\Documents\Unity\FireEmblemUnity\Assets\Scripts\FireEmblem\Skill\Skills\Rightful King.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Skill\Skill.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Skill\Skills\DualStrike.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Map\Map.cs" Line="60" Column="28" />
+      <File FileName="Assets\Scripts\FireEmblem\Items\Weapons\Close\Swords\Falchion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FireEmblem\Troops\Troops.cs" Line="33" Column="21" />
+      <File FileName="Assets\Scripts\FireEmblem\Managers\MapManager\MapManager.cs" Line="18" Column="5" />
+      <File FileName="Assets\Scripts\FireEmblem\Terrain\Terrain.cs" Line="33" Column="40" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="FireEmblem" expanded="True">
+                <Node name="Attributes" expanded="True" />
+                <Node name="Character" expanded="True">
+                  <Node name="Enemies" expanded="True" />
+                  <Node name="Parents" expanded="True" />
+                </Node>
+                <Node name="Inventory" expanded="True" />
+                <Node name="Items" expanded="True">
+                  <Node name="Consumables" expanded="True" />
+                  <Node name="Weapons" expanded="True">
+                    <Node name="Close" expanded="True">
+                      <Node name="Swords" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Managers" expanded="True">
+                  <Node name="BattleManager" expanded="True" />
+                  <Node name="MapManager" expanded="True" />
+                  <Node name="PersistenceManager" expanded="True" />
+                </Node>
+                <Node name="Map" expanded="True">
+                  <Node name="Map.cs" selected="True" />
+                </Node>
+                <Node name="Troops" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

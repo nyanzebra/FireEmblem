@@ -1,196 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{6A835023-FD89-54AD-9FDE-8C7D511F81F6}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
-	<BaseDirectory>Assets</BaseDirectory>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A835023-FD89-54AD-9FDE-8C7D511F81F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<DefineConstants>TRACE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
-    <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="System.Xml.Linq" />
-	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MecanimAnimationStore\Editor\MixamoStoreWindow.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Actions\ProBuilderizeGameObject.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\File\SaveLoadPbObjects.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Geometry\ExtrudeFace.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Geometry\PivotTool.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\CleanUpLeakedMeshes.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\ComponentCheck.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\DegenerateTris.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\FixGameObjectFlags.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\FixShaderWantsNormals.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\ForceMakeUnique.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\ForceMeshRefresh.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\InvertUVScale.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\RebuildSharedIndices.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Repair\RebuildVertexCaches.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Selection\EdgeSelection.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Selection\ExpandSelection.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\MenuItems\Selection\InvertSelection.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\ProBuilderMenuItems.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\pb_Preferences.cs" />
-     <Compile Include="Assets\ProCore\Prototype\Editor\pb_ScenePostProcessor.cs" />
-     <Compile Include="Assets\ProCore\Shared\About\Editor\pc_AboutWindow.cs" />
-     <Compile Include="Assets\codeandweb.com\Editor\TexturePackerImporter.cs" />
-     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
-     <None Include="Assets\Sprites\MapSprites\Emmeryn\3DS - Fire Emblem Awakening - Emmeryn.png.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
-     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\Sprites\MapSprites\Lissa\3DS - Fire Emblem Awakening - Lissa.png.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
-     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
-     <None Include="Assets\Sprites\MapSprites\Sayri\3DS - Fire Emblem Awakening - Sayri.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Fredrick\3DS - Fire Emblem Awakening - Fredrick.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Cynthia\3DS - Fire Emblem Awakening - Cynthia.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Tiki\3DS - Fire Emblem Awakening - Tiki.png.txt" />
-     <None Include="Assets\ProCore\Prototype\About\changelog.txt" />
-     <None Include="Assets\ProCore\Prototype\Shader\VertexBillboard.shader" />
-     <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColor.shader" />
-     <None Include="Assets\Sprites\MapSprites\Nowi\3DS - Fire Emblem Awakening - Nowi.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Miriel\3DS - Fire Emblem Awakening - Miriel.png.txt" />
-     <None Include="Assets\ProCore\Shared\About\README.txt" />
-     <None Include="Assets\Sprites\MapSprites\Gaius\3DS - Fire Emblem Awakening - Gaius.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Panne\3DS - Fire Emblem Awakening - Panne.png.txt" />
-     <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColorTransparency.shader" />
-     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
-     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\ProCore\Prototype\Shader\EdgeHighlight.shader" />
-     <None Include="Assets\Sprites\MapSprites\Priam\3DS - Fire Emblem Awakening - Priam.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Basilio\3DS - Fire Emblem Awakening - Basilio.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Kellam\3DS - Fire Emblem Awakening - Kellam.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Aversa\3DS - Fire Emblem Awakening - Aversa.png.txt" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Sprites\MapSprites\Gregor\3DS - Fire Emblem Awakening - Gregor.png.txt" />
-     <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
-     <None Include="Assets\Sprites\MapSprites\Gerome\3DS - Fire Emblem Awakening - Gerome.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Lucina\3DS - Fire Emblem Awakening - Lucina.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Maribelle\3DS - Fire Emblem Awakening - Maribelle.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Olivia\3DS - Fire Emblem Awakening - Olivia.png.txt" />
-     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\Sprites\MapSprites\Transformations\3DS - Fire Emblem Awakening - Transformations.png.txt" />
-     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
-     <None Include="Assets\ProCore\Prototype\Shader\UnlitColor.shader" />
-     <None Include="Assets\Sprites\MapSprites\Stahl\3DS - Fire Emblem Awakening - Stahl.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Vaike\3DS - Fire Emblem Awakening - Vaike.png.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
-     <None Include="Assets\Sprites\MapSprites\Henry\3DS - Fire Emblem Awakening - Henry.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Gangrel\3DS - Fire Emblem Awakening - Gangrel.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Sully\3DS - Fire Emblem Awakening - Sully.png.txt" />
-     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
-     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\Sprites\MapSprites\Chrom\3DS - Fire Emblem Awakening - Chrom.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\NPCS\3DS - Fire Emblem Awakening - NPCS.png.txt" />
-     <None Include="Assets\ProCore\Prototype\About\pc_AboutEntry_ProBuilder.txt" />
-     <None Include="Assets\Sprites\MapSprites\Kjelle\3DS - Fire Emblem Awakening - Kjelle.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Brady\3DS - Fire Emblem Awakening - Brady.png.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
-     <None Include="Assets\Sprites\MapSprites\Morgan\F\3DS - Fire Emblem Awakening - Morgan Female.png.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
-     <None Include="Assets\Sprites\MapSprites\Cherche\3DS - Fire Emblem Awakening - Cherche.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Ricken\3DS - Fire Emblem Awakening - Ricken.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Lonqu\3DS - Fire Emblem Awakening - Lonqu.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Nah\3DS - Fire Emblem Awakening - Nah.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Inigo\3DS - Fire Emblem Awakening - Inigo.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Walhart\3DS - Fire Emblem Awakening - Walhart.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Flavia\3DS - Fire Emblem Awakening - Flavia.png.txt" />
-     <None Include="Assets\ProCore\Prototype\Shader\UnlitColor-Overlay.shader" />
-     <None Include="Assets\Sprites\MapSprites\Validar\3DS - Fire Emblem Awakening - Validar.png.txt" />
-     <None Include="Assets\ProCore\Prototype\Shader\DiffuseVertexColorEmission.shader" />
-     <None Include="Assets\Sprites\MapSprites\GenericEnemies\3DS - Fire Emblem Awakening - GenericEnemies.png.txt" />
-     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
-     <None Include="Assets\Sprites\MapSprites\Tharja\3DS - Fire Emblem Awakening - Tharja.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Excellus\3DS - Fire Emblem Awakening - Excellus.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Donnel\3DS - Fire Emblem Awakening - Donnel.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Sumia\3DS - Fire Emblem Awakening - Sumia.png.txt" />
-     <None Include="Assets\codeandweb.com\Readme.txt" />
-     <None Include="Assets\Sprites\MapSprites\Virion\3DS - Fire Emblem Awakening - Virion.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Libra\3DS - Fire Emblem Awakening - Libra.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Cordelia\3DS - Fire Emblem Awakening - Cordelia.png.txt" />
-     <None Include="Assets\ProCore\Prototype\About\Credits.txt" />
-     <None Include="Assets\Sprites\MapSprites\Anna\3DS - Fire Emblem Awakening - Anna.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Laurent\3DS - Fire Emblem Awakening - Laurent.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Morgan\M\3DS - Fire Emblem Awakening - Morgan Male.png.txt" />
-     <None Include="Assets\Sprites\MapSprites\Yenfay\3DS - Fire Emblem Awakening - Yenfay.png.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/Editor/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Mixamo.UnityStore">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/MecanimAnimationStore/Editor/Mixamo.UnityStore.dll</HintPath>
- </Reference>
- <Reference Include="Mixamo.UnityStore.Unity4">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/MecanimAnimationStore/Editor/Mixamo.UnityStore.Unity4.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderCore">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Classes/ProBuilderCore.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderMeshOps">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Classes/ProBuilderMeshOps.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderEditor">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Editor/ProBuilderEditor.dll</HintPath>
- </Reference>
- <Reference Include="ProCore">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Shared/Code/ProCore.dll</HintPath>
- </Reference>
- <Reference Include="SixBySeven">
- <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Shared/Code/SixBySeven.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Sprites\MapSprites\Emmeryn\3DS - Fire Emblem Awakening - Emmeryn.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Sprites\MapSprites\Lissa\3DS - Fire Emblem Awakening - Lissa.png.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Sprites\MapSprites\Sayri\3DS - Fire Emblem Awakening - Sayri.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Fredrick\3DS - Fire Emblem Awakening - Fredrick.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cynthia\3DS - Fire Emblem Awakening - Cynthia.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Tiki\3DS - Fire Emblem Awakening - Tiki.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Nowi\3DS - Fire Emblem Awakening - Nowi.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Miriel\3DS - Fire Emblem Awakening - Miriel.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gaius\3DS - Fire Emblem Awakening - Gaius.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Panne\3DS - Fire Emblem Awakening - Panne.png.txt" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Sprites\MapSprites\Priam\3DS - Fire Emblem Awakening - Priam.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Basilio\3DS - Fire Emblem Awakening - Basilio.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Kellam\3DS - Fire Emblem Awakening - Kellam.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Aversa\3DS - Fire Emblem Awakening - Aversa.png.txt" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gregor\3DS - Fire Emblem Awakening - Gregor.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gerome\3DS - Fire Emblem Awakening - Gerome.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Lucina\3DS - Fire Emblem Awakening - Lucina.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Maribelle\3DS - Fire Emblem Awakening - Maribelle.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Olivia\3DS - Fire Emblem Awakening - Olivia.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Sprites\MapSprites\Transformations\3DS - Fire Emblem Awakening - Transformations.png.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Sprites\MapSprites\Stahl\3DS - Fire Emblem Awakening - Stahl.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Vaike\3DS - Fire Emblem Awakening - Vaike.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Henry\3DS - Fire Emblem Awakening - Henry.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Gangrel\3DS - Fire Emblem Awakening - Gangrel.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Sully\3DS - Fire Emblem Awakening - Sully.png.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Sprites\MapSprites\Chrom\3DS - Fire Emblem Awakening - Chrom.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\NPCS\3DS - Fire Emblem Awakening - NPCS.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Kjelle\3DS - Fire Emblem Awakening - Kjelle.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Brady\3DS - Fire Emblem Awakening - Brady.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Morgan\F\3DS - Fire Emblem Awakening - Morgan Female.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cherche\3DS - Fire Emblem Awakening - Cherche.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Ricken\3DS - Fire Emblem Awakening - Ricken.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Lonqu\3DS - Fire Emblem Awakening - Lonqu.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Nah\3DS - Fire Emblem Awakening - Nah.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Inigo\3DS - Fire Emblem Awakening - Inigo.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Walhart\3DS - Fire Emblem Awakening - Walhart.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Flavia\3DS - Fire Emblem Awakening - Flavia.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Validar\3DS - Fire Emblem Awakening - Validar.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\GenericEnemies\3DS - Fire Emblem Awakening - GenericEnemies.png.txt" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Sprites\MapSprites\Tharja\3DS - Fire Emblem Awakening - Tharja.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Excellus\3DS - Fire Emblem Awakening - Excellus.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Donnel\3DS - Fire Emblem Awakening - Donnel.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Sumia\3DS - Fire Emblem Awakening - Sumia.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Virion\3DS - Fire Emblem Awakening - Virion.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Libra\3DS - Fire Emblem Awakening - Libra.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Cordelia\3DS - Fire Emblem Awakening - Cordelia.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Anna\3DS - Fire Emblem Awakening - Anna.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Laurent\3DS - Fire Emblem Awakening - Laurent.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Morgan\M\3DS - Fire Emblem Awakening - Morgan Male.png.txt" />
+    <None Include="Assets\Sprites\MapSprites\Yenfay\3DS - Fire Emblem Awakening - Yenfay.png.txt" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.2\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.2\Editor\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Mixamo.UnityStore">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/MecanimAnimationStore/Editor/Mixamo.UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Mixamo.UnityStore.Unity4">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/MecanimAnimationStore/Editor/Mixamo.UnityStore.Unity4.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Classes/ProBuilderCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Classes/ProBuilderMeshOps.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Prototype/Editor/ProBuilderEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="ProCore">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Shared/Code/ProCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SixBySeven">
+      <HintPath>C:/Users/Robert/Documents/Unity/FireEmblemUnity/Assets/ProCore/Shared/Code/SixBySeven.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files %28x86%29\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend %28Queue +100%29.shader" />
+    <None Include="Assets\Standard Assets\Water %28Basic%29\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap Reflective.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap Only.shader" />
+    <None Include="Assets\Standard Assets %28Mobile%29\Shaders\Lightmap Shaders %28Legacy%29\Mobile Lightmap AlphaTest.shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{36F95EFF-490F-757E-B5C0-2AE491C306C9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{36F95EFF-490F-757E-B5C0-2AE491C306C9}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{D163FA80-99F1-D045-4D4E-A81C4C4532F3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{D163FA80-99F1-D045-4D4E-A81C4C4532F3}</Project>
+      <Name>Assembly-UnityScript-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{36D0F0AF-A1A6-4F56-4035-799EED33A136}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{36D0F0AF-A1A6-4F56-4035-799EED33A136}</Project>
+      <Name>Assembly-UnityScript</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -200,5 +169,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>

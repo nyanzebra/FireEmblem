@@ -1,13 +1,10 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Stairway : Terrain
-	{
-		public Stairway ()
-		{
-			m_Avoid_Bonus = 10;
-			m_Move_Cost = 1;
+namespace FireEmblem {
+	public class Stairway : Terrain	{
+		public Stairway() {
+			Avoid_Bonus = 10;
+			Move_Cost = 1;
 		}
 	}
 }

@@ -1,11 +1,8 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Sword : Weapon
-	{
-		public Sword ()
-		{
+namespace FireEmblem {
+	public class Sword : Weapon {
+		public Sword()	{
 		}
 
 		public override WeaponTriangle weaponTriangleValue(WeaponType type) {

@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace FireEmblem
-{
-	public class Troops
-	{
+namespace FireEmblem {
+	public class Troops {
 		private static Troops instance;
-		private Troops ()
-		{
+
+		private Troops() {
 		}
 
 		public static Troops Instance() {
@@ -18,26 +16,26 @@ namespace FireEmblem
 		}
 
 		public void update(List<Character> characters) {
-			m_Characters = characters;
+			Characters = characters;
 		}
 
-		public List<Character> CurrentTroops {
-			get { return m_Characters; }
+		public List<Character> getCurrentTroops() {
+			return Characters;
 		}
 
 		public void add(Character character) {
-			m_Characters.Add (character);
+			Characters.Add(character);
 		}
 
 		public void remove(Character character) {
-			m_Characters.Remove (character);
+			Characters.Remove(character);
 		}
 
 		public Character retrieve(String character) {
-			return m_Characters.Find (x => x.Name.Equals(character));
+			return Characters.Find(x => x.getName().Equals(character));
 		}
 
-		private List<Character> m_Characters;
+		private List<Character> Characters;
 	}
 }
 
