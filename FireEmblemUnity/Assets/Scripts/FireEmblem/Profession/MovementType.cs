@@ -1,10 +1,7 @@
 using System;
 
-namespace FireEmblem
-{
-	//highest has lowest (inclusive)
-	public enum MovementType
-	{
+namespace FireEmblem {
+	public enum MovementType {
 		Land,
 		Sea,
 		Air,

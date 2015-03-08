@@ -2,41 +2,38 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FireEmblem
-{
-	public abstract class Item
-	{
-		public Item ()
-		{
+namespace FireEmblem {
+	public abstract class Item 	{
+		public Item() {
 		}
 
-		public string Name {
-			get { return m_Name; }
+		public string getName() {
+			return Name;
 		}
 
-		public string Descriptions {
-			get { return m_Description; }
+		public string getDescriptions() {
+			return Description;
 		}
 
-		public int Durability {
-			get { return m_Durability; }
+		public int getDurability() {
+			return Durability;
 		}
 
-		public bool Stackable {
-			get { return m_Is_Stackable; }
+		public bool isStackable() {
+			return Is_Stackable;
 		}
 
-		public List<Profession> Necessary_Professions {
-			get { return m_Necessary_Professions; }
+		public List<Profession> getNecessaryProfessions() {
+			return Necessary_Professions;
 		}
 
-		protected string m_Description;
-		protected int m_Durability;
-		protected string m_Name;
-		protected int m_Cost;
-		protected bool m_Is_Stackable;
-		protected List<Profession> m_Necessary_Professions;
-		protected Sprite[] m_Sprites;
+		protected string Description;
+		protected int Durability;
+		protected string Name;
+		protected int Cost;
+		protected bool Is_Stackable;
+		protected List<Profession> Necessary_Professions;
+		protected Sprite[] Sprites;
 	}
 }
 

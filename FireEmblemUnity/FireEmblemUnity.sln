@@ -5,8 +5,6 @@ Project("{57496B66-6AB5-5C62-60C1-A3C87FC4B268}") = "FireEmblemUnity", "Assembly
 EndProject
 Project("{57496B66-6AB5-5C62-60C1-A3C87FC4B268}") = "FireEmblemUnity", "Assembly-CSharp.csproj", "{A26F1135-9CAC-9BF7-B866-E72AA2F73AED}"
 EndProject
-Project("{57496B66-6AB5-5C62-60C1-A3C87FC4B268}") = "FireEmblemUnity", "Assembly-CSharp-Editor.csproj", "{6A835023-FD89-54AD-9FDE-8C7D511F81F6}"
-EndProject
 Project("{57496B66-6AB5-5C62-60C1-A3C87FC4B268}") = "FireEmblemUnity", "Assembly-UnityScript-firstpass.unityproj", "{D163FA80-99F1-D045-4D4E-A81C4C4532F3}"
 EndProject
 Project("{57496B66-6AB5-5C62-60C1-A3C87FC4B268}") = "FireEmblemUnity", "Assembly-UnityScript.unityproj", "{36D0F0AF-A1A6-4F56-4035-799EED33A136}"
@@ -25,10 +23,6 @@ Global
 		{A26F1135-9CAC-9BF7-B866-E72AA2F73AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26F1135-9CAC-9BF7-B866-E72AA2F73AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26F1135-9CAC-9BF7-B866-E72AA2F73AED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A835023-FD89-54AD-9FDE-8C7D511F81F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A835023-FD89-54AD-9FDE-8C7D511F81F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A835023-FD89-54AD-9FDE-8C7D511F81F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A835023-FD89-54AD-9FDE-8C7D511F81F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D163FA80-99F1-D045-4D4E-A81C4C4532F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D163FA80-99F1-D045-4D4E-A81C4C4532F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D163FA80-99F1-D045-4D4E-A81C4C4532F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,13 +35,34 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-										GlobalSection(MonoDevelopProperties) = preSolution
+		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.inheritsSet = null
 		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.NamespaceBraceStyle = EndOfLine
+		$2.ClassBraceStyle = EndOfLine
+		$2.InterfaceBraceStyle = EndOfLine
+		$2.StructBraceStyle = EndOfLine
+		$2.EnumBraceStyle = EndOfLine
+		$2.MethodBraceStyle = EndOfLine
+		$2.ConstructorBraceStyle = EndOfLine
+		$2.DestructorBraceStyle = EndOfLine
+		$2.IfElseBraceForcement = AddBraces
+		$2.ForBraceForcement = AddBraces
+		$2.WhileBraceForcement = AddBraces
+		$2.UsingBraceForcement = AddBraces
+		$2.ElseIfNewLinePlacement = SameLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp

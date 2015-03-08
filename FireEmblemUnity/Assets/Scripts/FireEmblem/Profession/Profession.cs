@@ -1,33 +1,35 @@
 using System;
 using System.Collections.Generic;
 
-namespace FireEmblem
-{
-	abstract public class Profession
-	{
-		public Profession ()
-		{
+namespace FireEmblem {
+	abstract public class Profession {
+		public Profession() {
 		}
 
-		protected bool m_CanUpgrade;
-		protected static Dictionary<WeaponType, SkillLevel>  m_UsableWeapons;
-		protected static List<Promotion> m_Promotions;
+		public MovementType getMovementType() {
+			return Move_Type;
+		}
 
-		//stats
-		protected uint m_Max_Health;
-		protected uint m_Max_Defense;
-		protected uint m_Max_Constitution;
-		protected uint m_Max_AttackSpeed;
-		protected uint m_Max_Affinity;
-		protected uint m_Max_Luck;
-		protected uint m_Max_Strength;
-		protected uint m_Max_Speed;
-		protected uint m_Max_Skill;
-		protected uint m_Max_Magic;
-		protected uint m_Max_Resistance;
-		protected uint m_Movement;
-		protected MovementType m_Move_Type;
-		protected BeastType m_Beast_Type;
+		public int getMovement() {
+			return Movement;
+		}
+
+		protected bool isUpgradable;
+		protected static Dictionary<WeaponType, SkillLevel>  UsableWeapons;
+		protected static List<Promotion> Promotions;
+
+		protected int Max_Health;
+		protected int Max_Defense;
+		protected int Max_Constitution;
+		protected int Max_Luck;
+		protected int Max_Strength;
+		protected int Max_Speed;
+		protected int Max_Skill;
+		protected int Max_Magic;
+		protected int Max_Resistance;
+		protected int Movement;
+		protected MovementType Move_Type;
+		protected BeastType Beast_Type;
 	}
 }
 

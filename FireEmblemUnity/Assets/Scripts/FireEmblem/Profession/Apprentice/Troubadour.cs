@@ -1,11 +1,8 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Troubadour : Profession
-	{
-		public Troubadour ()
-		{
+namespace FireEmblem {
+	public class Troubadour : Profession {
+		public Troubadour() {
 
 		}
 	}

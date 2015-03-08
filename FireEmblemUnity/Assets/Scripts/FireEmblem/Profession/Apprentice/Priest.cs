@@ -1,25 +1,22 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Priest : Profession
-	{
-		public Priest ()
-		{
-			m_Max_Health = 60;
-			m_Max_Strength = 22;
-			m_Max_Magic = 25;
-			m_Max_Skill = 24;
-			m_Max_Speed = 25;
-			m_Max_Luck = 30;
-			m_Max_Defense = 22;
-			m_Max_Resistance = 27;
-			m_Movement = 5;
-			m_UsableWeapons.Add (WeaponType.Staff, SkillLevel.A);
-			m_Promotions.Add (new WarMonk ());
-			m_Promotions.Add (new Sage ());
-			m_Move_Type = MovementType.Land;
-			m_Beast_Type = BeastType.None;
+namespace FireEmblem {
+	public class Priest : Profession {
+		public Priest() {
+			Max_Health = 60;
+			Max_Strength = 22;
+			Max_Magic = 25;
+			Max_Skill = 24;
+			Max_Speed = 25;
+			Max_Luck = 30;
+			Max_Defense = 22;
+			Max_Resistance = 27;
+			Movement = 5;
+			UsableWeapons.Add(WeaponType.Staff, SkillLevel.A);
+			Promotions.Add(new WarMonk());
+			Promotions.Add(new Sage());
+			Move_Type = MovementType.Land;
+			Beast_Type = BeastType.None;
 		}
 	}
 }

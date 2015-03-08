@@ -1,9 +1,7 @@
 using System;
 
-namespace FireEmblem
-{
-	public enum BeastType
-	{
+namespace FireEmblem {
+	public enum BeastType {
 		None,
 		Pegasus,
 		Wyvern,

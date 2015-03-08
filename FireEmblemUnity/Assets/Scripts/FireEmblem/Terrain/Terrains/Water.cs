@@ -1,11 +1,8 @@
 using System;
 
-namespace FireEmblem
-{
-	public class Water
-	{
-		public Water ()
-		{
+namespace FireEmblem {
+	public class Water {
+		public Water() {
 		}
 	}
 }
