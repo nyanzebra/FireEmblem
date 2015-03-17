@@ -15,7 +15,7 @@ namespace FireEmblem {
 			return instance;
 		}
 
-		public void update(List<Character> characters) {
+		public void loadCharacters(List<Character> characters) {
 			Characters = characters;
 		}
 
@@ -31,11 +31,11 @@ namespace FireEmblem {
 			Characters.Remove(character);
 		}
 
-		public Character retrieve(String character) {
+		public Character getCharacter(String character) {
 			return Characters.Find(x => x.getName().Equals(character));
 		}
 
-		private List<Character> Characters;
+		private List<Character> Characters = new List<Character>();
 	}
 }
 

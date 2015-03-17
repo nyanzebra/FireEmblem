@@ -5,12 +5,8 @@ namespace FireEmblem {
 		public Terrain() {
 		}
 
-		public void setAsEnemySpawn() {
-			Enemy_Spawn_Position = true;
-		}
-
-		public bool canMoveOverTile() {
-			return Can_Move_Over_Tile;
+		public bool isTraversable() {
+			return Is_Traversable;
 		}
 
 		public int getDefenseBonus() {
@@ -33,12 +29,11 @@ namespace FireEmblem {
 			return Highest_Movement_Requirement;
 		}
 
+		protected bool Is_Traversable = true;
 		protected int Defense_Bonus = 0;
 		protected int Avoid_Bonus = 0;
 		protected int Heal_Percentage = 0;
 		protected int Move_Cost = 0;
-		protected bool Can_Move_Over_Tile = true;
-		protected bool Enemy_Spawn_Position = false;
 		protected MovementType Highest_Movement_Requirement = MovementType.Land;
 		protected bool Can_Stop_On_Tile = true;
 	}

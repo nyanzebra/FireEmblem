@@ -20,7 +20,7 @@ namespace FireEmblem {
 			return Caravan;
 		}
 
-		public void updateItems(Dictionary<ItemType, List<Item>> inventory) {
+		public void loadItems(Dictionary<ItemType, List<Item>> inventory) {
 			Caravan = inventory;
 		}
 
