@@ -15,8 +15,8 @@ namespace FireEmblem {
 		}
 
 		protected bool isUpgradable;
-		protected static Dictionary<WeaponType, SkillLevel>  UsableWeapons;
-		protected static List<Promotion> Promotions;
+		protected Dictionary<WeaponType, SkillLevel>  UsableWeapons = new Dictionary<WeaponType, SkillLevel>();
+		protected List<Promotion> Promotions = new List<Promotion>();
 
 		protected int Max_Health;
 		protected int Max_Defense;

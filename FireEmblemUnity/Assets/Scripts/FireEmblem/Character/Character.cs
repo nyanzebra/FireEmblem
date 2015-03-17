@@ -7,16 +7,16 @@ namespace FireEmblem {
 		public Character() {
 		}
 
-		public Profession getClass() {
+		public Profession getProfession() {
 			return Current_Profession;
 		}
 
-		public void setClass(Profession profession) {
+		public void setProfession(Profession profession) {
 			Current_Profession = profession;
 		}
 
 		public Attributes getAttributes() {
-			return Stats;
+			return Characteristics;
 		}
 
 		public LevelSystem getLevel() {
@@ -24,18 +24,19 @@ namespace FireEmblem {
 		}
 
 		public Weapon getEquippedWeapon() {
-			return Active_Weapon;
-		}
-
-		public void setEquippedWeapon(Weapon weapon) {
-			Active_Weapon = weapon;
+			for(int item = 0; item < 5; ++item) {
+				if (Equipment.getItem(item) is Weapon) {
+					return Equipment.getItem(item) as Weapon;
+				}
+			}
+			return null;
 		}
 
 		public bool isDead() {
 			return Is_Dead;
 		}
 
-		public void switchClass(Profession new_profession) {
+		public void switchProfession(Profession new_profession) {
 			Level.levelUp();
 			Second_Seals_Used++;
 			Current_Profession = new_profession;
@@ -53,7 +54,8 @@ namespace FireEmblem {
 		}
 
 		public int Attack_Recovery_Bonus() {
-			if (Active_Weapon is Sword || Active_Weapon is Staff) {
+			Weapon equipped_weapon = getEquippedWeapon();
+			if (equipped_weapon is Sword || equipped_weapon is Staff) {
 				if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.C) {
 					return 1;
 				} else if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.B) {
@@ -61,7 +63,7 @@ namespace FireEmblem {
 				} else if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.A) {
 					return 3;
 				}
-			} else if (Active_Weapon is Lance || Active_Weapon is Bow || Active_Weapon is Tome) {
+			} else if (equipped_weapon is Lance || equipped_weapon is Bow || equipped_weapon is Tome) {
 				if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.C) {
 					return 1;
 				} else if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.B) {
@@ -69,7 +71,7 @@ namespace FireEmblem {
 				} else if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.A) {
 					return 2;
 				}
-			} else if (Active_Weapon is Axe) {
+			} else if (equipped_weapon is Axe) {
 				if (Weapon_And_Skill[WeaponType.Axe] == SkillLevel.A) {
 					return 1;
 				}
@@ -78,12 +80,13 @@ namespace FireEmblem {
 		}
 
 		public int Hit_Rate_Bonus() {
-			if (Active_Weapon is Lance || Active_Weapon is Bow || Active_Weapon is Tome) {
+			Weapon equipped_weapon = getEquippedWeapon();
+			if (equipped_weapon is Lance || equipped_weapon is Bow || equipped_weapon is Tome) {
 				if (Weapon_And_Skill[WeaponType.Sword] == SkillLevel.B 
 					|| Weapon_And_Skill[WeaponType.Sword] == SkillLevel.A) {
 					return 5;
 				} 
-			} else if (Active_Weapon is Axe) {
+			} else if (equipped_weapon is Axe) {
 				if (Weapon_And_Skill[WeaponType.Axe] == SkillLevel.C) {
 					return 5;
 				} else if (Weapon_And_Skill[WeaponType.Axe] == SkillLevel.B) {
@@ -107,26 +110,32 @@ namespace FireEmblem {
 			Is_Dead = true;
 		}
 
-		public void useItem(int position) {
-			Item item_to_use = Equipment.getItem(position);
-			if (item_to_use is Weapon) {
-				setEquippedWeapon(item_to_use as Weapon);
-			} else if (item_to_use is Consumable) {
-				
-			}
+		public Equipment getEquipment() {
+			return Equipment;
 		}
 
 		public void damage(int damage) {
-			Stats.setHealth(Stats.getHealth() - damage);
-			if (Stats.getHealth() <= 0) {
-				Is_Dead = true;
+			if (damage > 0) {
+				int current_health = Characteristics.getTemporaryAttribute(AttributeName.Health);
+				Characteristics.setTemporaryAttribute(AttributeName.Health, current_health - damage);
+				if (Characteristics.getTemporaryAttribute(AttributeName.Health) <= 0) {
+					Is_Dead = true;
+				}
 			}
 		}
 
 		public void loadSprites() {
-			for (int i = 0; i < 40; ++i) {
+			for (int i = 0; i < 4; ++i) {
 
-				//Sprites.Add(Sprite.Create());
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "select_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "forward_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "backward_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "left_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "right_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "upleft_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "upright_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "downleft_" + i.ToString()));
+				Sprites.Add(Resources.Load(Name + "_" + Current_Profession.ToString() + "_" + "downright_" + i.ToString()));
 			}
 		}
 
@@ -135,16 +144,15 @@ namespace FireEmblem {
 		}
 
 		protected string Name;
-		protected Equipment Equipment;
-		protected static Dictionary<WeaponType, SkillLevel> Weapon_And_Skill;
+		protected Equipment Equipment = new Equipment();
+		protected static Dictionary<WeaponType, SkillLevel> Weapon_And_Skill = new Dictionary<WeaponType, SkillLevel>();
 		protected bool Is_Dead = false;
-		protected Weapon Active_Weapon;
 		protected int Times_Attacked = 0;
 		protected Profession Current_Profession;
 		protected int Second_Seals_Used = 0;
-		protected static List<Profession> Alternative_Jobs;
+		protected static List<Profession> Alternative_Jobs = new List<Profession>();
 		protected LevelSystem Level;
-		protected Attributes Stats;
+		protected Attributes Characteristics = new Attributes();
 		protected List<Skill> Skills = new List<Skill>();
 		protected List<Sprite> Sprites = new List<Sprite>();
 	}

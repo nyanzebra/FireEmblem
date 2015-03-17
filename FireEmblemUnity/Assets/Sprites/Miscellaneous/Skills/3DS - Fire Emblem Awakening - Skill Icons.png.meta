@@ -1,0 +1,1202 @@
+fileFormatVersion: 2
+guid: db8ea261feb23834ba77856ee7e568b3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 3DS - Fire Emblem Awakening - Skill Icons_0
+    21300002: HP +5
+    21300004: Strength +2
+    21300006: Magic +2
+    21300008: Skill +2
+    21300010: Speed +2
+    21300012: Defense +2
+    21300014: Resistance +2
+    21300016: 3DS - Fire Emblem Awakening - Skill Icons_8
+    21300018: Hit Rate +20
+    21300020: Avoid +10
+    21300022: Movement +1
+    21300024: Locktouch
+    21300026: Veteran
+    21300028: Aptitude
+    21300030: Discipline
+    21300032: Armsthrift
+    21300034: Dual Support+
+    21300036: Dual Strike+
+    21300038: Dual Guard+
+    21300040: Rightful King
+    21300042: Odd Rhythm
+    21300044: Even Rhythm
+    21300046: Quick Burn
+    21300048: Slow Burn
+    21300050: Lucky Seven
+    21300052: Gamble
+    21300054: Outdoor Fighter
+    21300056: Indoor Fighter
+    21300058: Tantivy
+    21300060: Focus
+    21300062: Zeal
+    21300064: Wrath
+    21300066: Prescience
+    21300068: Patience
+    21300070: Underdog
+    21300072: Charm
+    21300074: Solidarity
+    21300076: Demoiselle
+    21300078: Hex
+    21300080: Anathema
+    21300082: Healtouch
+    21300084: Relief
+    21300086: Renewal
+    21300088: Deliverer
+    21300090: Defender
+    21300092: Acrobat
+    21300094: Pass
+    21300096: Swordfaire
+    21300098: Lancefaire
+    21300100: Axefaire
+    21300102: Bowfaire
+    21300104: Tomefaire
+    21300106: 3DS - Fire Emblem Awakening - Skill Icons_53
+    21300108: Special Dance
+    21300110: Rally Strength
+    21300112: Rally Magic
+    21300114: Rally Skill
+    21300116: Rally Speed
+    21300118: Rally Luck
+    21300120: Rally Defense
+    21300122: Rally Resistance
+    21300124: Rally Movement
+    21300126: Rally Spectrum
+    21300128: Swordbreaker
+    21300130: Lancebreaker
+    21300132: Axebreaker
+    21300134: Bowbreaker
+    21300136: Tomebreaker
+    21300138: Wyrmsbane
+    21300140: Beastbane
+    21300142: Lethality
+    21300144: Aether
+    21300146: Astra
+    21300148: Sol
+    21300150: 3DS - Fire Emblem Awakening - Skill Icons_75
+    21300152: Ignis
+    21300154: Vengeance
+    21300156: Vantage
+    21300158: Pavise
+    21300160: Aegis
+    21300162: Counter
+    21300164: Miracle
+    21300166: Despoil
+    21300168: Galeforce
+    21300170: Lifetaker
+    21300172: Conquest
+    21300174: Shadowgift
+    21300176: 3DS - Fire Emblem Awakening - Skill Icons_88
+    21300178: 3DS - Fire Emblem Awakening - Skill Icons_89
+    21300180: Luck +4
+    21300182: Luna
+    21300184: 3DS - Fire Emblem Awakening - Skill Icons_92
+    21300186: 3DS - Fire Emblem Awakening - Skill Icons_93
+    21300188: 3DS - Fire Emblem Awakening - Skill Icons_94
+    21300190: 3DS - Fire Emblem Awakening - Skill Icons_95
+    21300192: All Stats +2
+    21300194: Paragon
+    21300196: Iote's Shield
+    21300198: Limit Breaker
+    21300200: Resistance +10
+    21300202: Agressor
+    21300204: Rally Heart
+    21300206: Bond
+    21300208: Outrealm Skill
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HP +5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Strength +2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Magic +2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill +2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Speed +2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Defense +2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Resistance +2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit Rate +20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 240
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Avoid +10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Movement +1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Locktouch
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Veteran
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Aptitude
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Discipline
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armsthrift
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dual Support+
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dual Strike+
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dual Guard+
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rightful King
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Odd Rhythm
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Even Rhythm
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Quick Burn
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slow Burn
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lucky Seven
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gamble
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Outdoor Fighter
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Indoor Fighter
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tantivy
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 192
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Focus
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zeal
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wrath
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Prescience
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patience
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Underdog
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Charm
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Solidarity
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Demoiselle
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hex
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Anathema
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Healtouch
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Relief
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Renewal
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Deliverer
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Defender
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Acrobat
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pass
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Swordfaire
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lancefaire
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 144
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axefaire
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bowfaire
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tomefaire
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_53
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Special Dance
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Strength
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Magic
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Skill
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Speed
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Luck
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 120
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Defense
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Resistance
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Movement
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Spectrum
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Swordbreaker
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lancebreaker
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axebreaker
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bowbreaker
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tomebreaker
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wyrmsbane
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beastbane
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lethality
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Aether
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astra
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sol
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_75
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ignis
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Vengeance
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Vantage
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pavise
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Aegis
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Counter
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Miracle
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Despoil
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Galeforce
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lifetaker
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Conquest
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadowgift
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_88
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_89
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 48
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Luck +4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Luna
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_92
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_93
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_94
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3DS - Fire Emblem Awakening - Skill Icons_95
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: All Stats +2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Paragon
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Iote's Shield
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Limit Breaker
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 24
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Resistance +10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Agressor
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rally Heart
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bond
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Outrealm Skill
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
